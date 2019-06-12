@@ -300,3 +300,24 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+/*----------------------------------------*/
+/* CITIES */
+/*----------------------------------------*/
+
+.section-cities .box img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.section-cities img:hover {
+    transform: scale(1);
+}
+
+.city-feature {
+    font-size: 110%;
+    
+}

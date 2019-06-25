@@ -162,7 +162,10 @@
         </div>
         <div class="row">
             <div class="col span-1-of-4 box">
-                <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
+                <div class="city-img-div">
+                        <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
+                </div>
+                
                 <h3>Lisbon</h3>
 
                 <div class="city-feature">
@@ -263,71 +266,145 @@
         </div>
     </section>
 
-    <section class="section-contact">
+    <section class="section-plans">
         <div class="row">
             <h2>
-                We're happy to hear from you
+                Sign up and pricing plans
             </h2>
         </div>
         <div class="row">
-            <form method="POST" action="#" class="contact-form">
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="name">Name</label>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>
+                            Premium
+                        </h3>
+                        <p class="plan-price">£399 <span>/ month</span></p>
+                        <p class="plan-price-meal">That’s only £13.30 per meal</p>
                     </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" name="Name" id="name" placeholder="Your name.." required>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark icon-small"></i>1 meal every day</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Order 24/7</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Access to newest creations</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Free delivery</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="email" name="Email" id="email" placeholder="Your email address.." required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="find-us">How did you find us?</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <select name="find-us" id="find-us">
-                            <option value="friend" selected>Friend</option>
-                            <option value="search">Search Engine</option>
-                            <option value="advert">Advert</option>
-                            <option value="other">Other</option>
-                        </select>
+                    <div>
+                        <a href="#" class="btn btn-full">Sign up now</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="news">Newsletter?</label>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>
+                            Pro
+                        </h3>
+                        <p class="plan-price">£149 <span>/ month</span></p>
+                        <p class="plan-price-meal">That’s only £14.90 per meal</p>
                     </div>
-                    <div class="col span-2-of-3">
-                        <input type="checkbox" name="News" id="news" placeholder="" checked> Yes, please
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark icon-small"></i>1 meal 10 days/month</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Order 24/7</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Access to newest creations</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Free delivery</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="message">Drop us a line</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message.."></textarea>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!">
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign up now</a>
                     </div>
                 </div>
-            </form>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>
+                            Starter
+                        </h3>
+                        <p class="plan-price">£19 <span>/ meal</span></p>
+                        <p class="plan-price-meal">&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark icon-small"></i>1 meal</li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Order from 8 am to 12 pm</li>
+                            <li><i class="ion-ios-close icon-small"></i></li>
+                            <li><i class="ion-ios-checkmark icon-small"></i>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign up now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </section>
+    <section class="section-contact">
+            <div class="row">
+                <h2>
+                    We're happy to hear from you
+                </h2>
+            </div>
+            <div class="row">
+                <form method="POST" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="Name" id="name" placeholder="Your name.." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="Email" id="email" placeholder="Your email address.." required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="friend" selected>Friend</option>
+                                <option value="search">Search Engine</option>
+                                <option value="advert">Advert</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="news">Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="News" id="news" placeholder="" checked> Yes, please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message.."></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
 </body>
 
 </html>
@@ -340,6 +417,8 @@ Email
 How did you find us?
 Newsletter
 Drop us a line
+
+
 
 
 -->

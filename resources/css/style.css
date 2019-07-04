@@ -502,7 +502,8 @@ input[type=checkbox] {
 /*----------------------------------------*/
 footer {
     background-color: #333;
-    padding: 60px;
+    padding: 50px;
+    font-size: 80%;
 }
 
 .footer-nav {
@@ -542,8 +543,37 @@ footer {
     color: #ddd;
 }
 
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-youtube,
+.ion-logo-instagram {
+    transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 170%;
+}
+
+.ion-logo-facebook:hover {
+    color: #1877f2;
+}
+
+.ion-logo-twitter:hover {
+    color: #1da1f2;
+}
+
+.ion-logo-youtube:hover {
+    color: #ff0000;
+}
+
+.ion-logo-instagram:hover {
+    color: #c32aa3;
+}
+
 footer p {
     color: #888;
     text-align: center;
-    font-size: 90%;
+    margin-top: 20px;
 }
+

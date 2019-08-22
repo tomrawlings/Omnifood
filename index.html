@@ -3,6 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-sclae=1.0">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
@@ -19,21 +20,21 @@
                 <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
                 <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#" class="">Food delivery</a></li>
-                    <li><a href="#" class="">How it works</a></li>
-                    <li><a href="#" class="">Our cities</a></li>
-                    <li><a href="#" class="">Sign up</a></li>
+                    <li><a href="#features" class="">Food delivery</a></li>
+                    <li><a href="#works" class="">How it works</a></li>
+                    <li><a href="#cities" class="">Our cities</a></li>
+                    <li><a href="#plans" class="">Sign up</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food.<br>super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I'm hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js-scroll-to-plans" href="#">I'm hungry</a>
+            <a class="btn btn-ghost js-scroll-to-start" href="#">Show me more</a>
         </div>
     </header>
 
-    <section class="section-features js-section-features">
+    <section class="section-features js-section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-copy">
@@ -42,7 +43,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js-wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite icon-big"></i>
                 <h3>Up to 365 days/year</h3>
@@ -125,13 +126,13 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
             <h2>
                 How it works &mdash; Simple as 1, 2, 3
             </h2>
             <div class="row">
-                <div class="col span-1-of-2 steps-box">
+                <div class="col span-1-of-2 steps-box js-wp-2">
                     <img src="resources/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen">
                 </div>
                 <div class="col span-1-of-2 steps-box">
@@ -156,13 +157,13 @@
         </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>
                 We're currently in these cities
             </h2>
         </div>
-        <div class="row">
+        <div class="row js-wp-3">
             <div class="col span-1-of-4 box">
                 <div class="city-img-div">
                     <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
@@ -268,14 +269,14 @@
         </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans js-section-plans" id="plans">
         <div class="row">
             <h2>
                 Sign up and pricing plans
             </h2>
         </div>
         <div class="row">
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-3 js-wp-4">
                 <div class="plan-box">
                     <div>
                         <h3>

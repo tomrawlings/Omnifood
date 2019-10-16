@@ -288,6 +288,19 @@ header {
 .sticky .logo {display: none;}
 .sticky .logo-black {display: block;}
 
+/* Mobile Navi */
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: white;
+}
+
 /*----------------------------------------*/
 /* FEATURES */
 /*----------------------------------------*/

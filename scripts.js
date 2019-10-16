@@ -37,5 +37,16 @@ $(document).ready(function(){
         $('.js-wp-4').addClass('animated rubberBand');
     }, {offset: '50%'})
 
+    // Mobile Navigation
+    $('.js-nav-icon').on('click', function(){
+        var nav = $('.js-main-nav');
+        var icon = $('.js-nav-icon-i');
+        nav.slideToggle(200);
 
+        if (icon.hasClass('ion-ios-menu')) {
+            icon.removeClass('ion-ios-menu').addClass('ion-md-close');
+        } else {
+            icon.addClass('ion-ios-menu').removeClass('ion-md-close');
+        }
+    })
 });

@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
     // Sticky Navigation
-    $('.js-section-features').waypoint(function(direction){
+    $('.hero-text-box').waypoint(function(direction){
         if (direction == 'down') {
-            $('nav').addClass('sticky');
+            $('nav').addClass('sticky', 200);
         } else {
-            $('nav').removeClass('sticky');
+            $('nav').removeClass('sticky', 200);
         }
     }, {
         offset: '60px'

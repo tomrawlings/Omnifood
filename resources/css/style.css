@@ -511,6 +511,19 @@ input[type=checkbox] {
 *:focus{
     outline: none;
 }
+
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 20px;
+}
+
 /*----------------------------------------*/
 /* PRICE PLANS */
 /*----------------------------------------*/

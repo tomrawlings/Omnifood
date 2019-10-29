@@ -368,8 +368,14 @@
         <div class="row">
             <form method="POST" action="mailer.php" class="contact-form">
                 <div class="row">
-                    <div class="form-messages success">Thank you, your message has been sent</div>
-                    <div class="form-messages error">There was an error sending your message</div>
+                    <?php
+                        if($_GET['success'] == 1){
+                            echo "<div class=\"form-messages success\">Thank you, your message has been sent</div>"
+                        }
+                        if($_GET['success'] == -1){
+                            echoc "<div class=\"form-messages error\">There was an error sending your message</div>"
+                        }
+                    ?>
                 </div>
                 <div class="row">
                     <div class="col span-1-of-3">

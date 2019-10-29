@@ -521,9 +521,11 @@ input[type=checkbox] {
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
+.success { background-color: rgb(16, 197, 0, 0.8);}
+.error { background-color: rgba(250, 0, 0, 0.6);}
 /*----------------------------------------*/
 /* PRICE PLANS */
 /*----------------------------------------*/
